@@ -49,8 +49,8 @@ _The app has a built in Category with parent and children set up with default di
 
 **_NOTE: All categories for this App derive from Category named APPAREL. You may over-write by providing a different Category relationship using this csv_**
 ```
-<Category Name e.g. MENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Child Brand 1 (e.g Shirts):Child Brand 2 (e.g. Casuals):...>,<Discount>
-<Category Name e.g. WOMENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Child Brand 1 (e.g Footwear):Child Brand 2 (e.g. Dresses):...>,<Discount>
+<Category Name e.g. MENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Children brands delimited by a colon. Empty for no childred (e.g. Casuals:Shirts):...>,<Discount>
+<Category Name e.g. WOMENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Children brands delimited by a colon. Empty for no childred (e.g. Dresses:Footwear):...>,<Discount>
 ...
 ```
 
