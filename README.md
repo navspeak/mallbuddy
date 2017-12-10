@@ -19,7 +19,7 @@ NOTE: brand and category are optional. If you do not provide these csv files
        built-in defaults will be used for brands and categories
 ```
 
-#CSV File format
+# CSV File format
 
 **inventory.csv**
 ```
@@ -46,6 +46,7 @@ _The app has a built in brand with default discount. If you don't provide this, 
 ```
 **category.csv**
 _The app has a built in Category with parent and children set up with default discount on each Category. If you don't provide this, the default will apply_
+
 **_NOTE: All categories for this App derive from Category named APPAREL. You may over-write by providing a different Category relationship using this csv_**
 ```
 <Category Name e.g. MENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Child Brand 1 (e.g Shirts):Child Brand 2 (e.g. Casuals):...>,<Discount>
@@ -77,11 +78,10 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
 
 - The layout is a standard Maven project
 - The **MallBuddy** is a maven project
- - When you do `maven build`, you can find the project built as a jar named **navsmall-<version>.jar**
+ - When you do `maven build`, you can find the project built as a jar named **navsmall-_version_.jar**
  - The main driver class is com.nav.driver.Driver
  - The project has tests that run on maven build. The test results can be found in **Mallbuddy/target/surefire-reports**
- 
- ============================================
+
 # Design and Architecture:
 
 ## Domain Objects
