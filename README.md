@@ -1,11 +1,11 @@
 # Table of contents
-1. [pricebuddy App](#pricebuddyApp) 
+1. [pricebuddy App - How to run?](#pricebuddyApp) 
 2. [Project Setup](#proj)
 3. [Design and Architecture](#arch)
 4. [Assumptions](#assume)
 
 <a name="pricebuddyApp"></a>
-# pricebuddy app 
+# pricebuddy app - How to run?
 >This app is your buddy and helps you calculate the bill for customer item choices. 
 >It applies all the discount without you having to do the number crunching 
 >And it prints a handy bill!!
