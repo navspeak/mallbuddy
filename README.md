@@ -19,6 +19,44 @@ NOTE: brand and category are optional. If you do not provide these csv files
        built-in defaults will be used for brands and categories
 ```
 
+#CSV File format
+
+**inventory.csv**
+```
+<Number Of Items>
+<Numeric Id 1>, <Brand like Arrow, Vero Moda etc>, <Items like Shirts, footwear etc>, <price> 
+<Numeric Id 1>, <Brand like Arrow, Vero Moda etc>, <Items like Shirts, footwear etc>, <price> 
+...
+```
+
+**customerInput.csv**
+```
+<Number Of Inputs>
+<choice 1>, <choice 2>, <choice 3>, ...,<choice n>
+<choice 1>, <choice 2>, <choice 3>, ...,<choice n>
+...
+```
+
+**brand.csv**
+```
+<Brand like Arrow, Vero Moda etc>, <discount>
+<Brand like Arrow, Vero Moda etc>, <discount>
+...
+```
+**category.csv**
+```
+<Category Name e.g. MENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Child Brand 1 (e.g Shirts):Child Brand 2 (e.g. Casuals):...>,<Discount>
+<Category Name e.g. WOMENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Child Brand 1 (e.g Footwear):Child Brand 2 (e.g. Dresses):...>,<Discount>
+```
+
+
+/*5
+		1, Arrow,Shirts,800
+		2, Vero Moda,Dresses,1400
+		3, Provogue,Footwear,1800
+		4, Wrangler,Jeans,2200
+		5, UCB,Shirts,1500*/
+
 ## Sample run:
 ```
 C:\PricebuddyApp>pricebuddy.bat inventory=inventory.csv customerinput=customerInput.csv
