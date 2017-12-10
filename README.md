@@ -1,4 +1,8 @@
 # mallbuddy
+>This app is your buddy and helps you calculate the bill for customer item choices. 
+>It applies all the discount without you having to do the number crunching 
+>And it prints a handy bill!!
+
 Download the PricebuddyApp folder.
 It contains utilities named pricebuddy.bat (for Windows) and pricebuddy.sh (for Unix)
 Ensure that your java environment is set properly before running this app
