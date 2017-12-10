@@ -6,7 +6,7 @@ import org.apache.log4j.Logger;
 
 import com.nav.domain.Category;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.CategoryService;
+import com.nav.services.CategoryService;
 
 public class CategoryUtil {
 

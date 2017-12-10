@@ -14,7 +14,7 @@ import java.util.Map;
 import org.apache.log4j.Logger;
 
 import com.nav.domain.Item;
-import com.nav.service.BillingService;
+import com.nav.services.BillingService;
 
 
 public class BillSelectionUtil {

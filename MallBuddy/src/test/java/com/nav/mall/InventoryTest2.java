@@ -18,8 +18,8 @@ import com.nav.csv.util.CSVUtil;
 import com.nav.domain.Category;
 import com.nav.domain.DomainObject;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.BillingService;
-import com.nav.service.InventoryService;
+import com.nav.services.BillingService;
+import com.nav.services.InventoryService;
 import com.nav.strategy.BillStyle;
 public class InventoryTest2 {
 

@@ -1,4 +1,4 @@
-package com.nav.service;
+package com.nav.services;
 
 import java.util.ArrayList;
 import java.util.Collections;

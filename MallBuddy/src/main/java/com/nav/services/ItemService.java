@@ -1,9 +1,9 @@
-package com.nav.service;
+package com.nav.services;
 
 import java.util.List;
 import com.nav.domain.DomainObject;
 import com.nav.domain.Item;
-import com.nav.services.IItemService;
+import com.nav.repository.IItemService;
 
 public class ItemService extends AbstractNumericKeyMapService implements IItemService{
 	    @Override

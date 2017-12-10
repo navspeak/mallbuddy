@@ -1,9 +1,9 @@
-package com.nav.service;
+package com.nav.services;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import com.nav.services.IBillingService;
+import com.nav.repository.IBillingService;
 import com.nav.strategy.BillStyle;
 import com.nav.strategy.HighestDiscountStrategy;
 import com.nav.strategy.IDiscountStrategy;

@@ -7,7 +7,7 @@ import org.apache.log4j.Logger;
 
 import com.nav.domain.Brand;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.BrandService;
+import com.nav.services.BrandService;
 
 public class BrandUtil {
 	private static Logger logger = Logger.getLogger(BrandUtil.class);

@@ -1,4 +1,4 @@
-package com.nav.services;
+package com.nav.repository;
 
 import java.util.List;
 

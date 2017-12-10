@@ -1,4 +1,4 @@
-package com.nav.service;
+package com.nav.services;
 
 import com.nav.csv.bootstrap.LoadDomains;
 import com.nav.exceptions.InvalidEntryInCSVFile;

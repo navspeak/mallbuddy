@@ -5,7 +5,7 @@ import java.util.Map;
 
 import com.nav.domain.DomainObject;
 import com.nav.domain.Item;
-import com.nav.service.BillingService;
+import com.nav.services.BillingService;
 
 
 public class PrintBillWithDiscountStrategy implements IPrintBillStrategy {

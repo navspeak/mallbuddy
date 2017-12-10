@@ -9,7 +9,7 @@ import com.nav.domain.Brand;
 import com.nav.domain.Category;
 import com.nav.domain.Item;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.InventoryService;
+import com.nav.services.InventoryService;
 
 
 public class InventoryUtil

@@ -11,7 +11,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.CategoryService;
+import com.nav.services.CategoryService;
 
 public class CategoryTest {
 

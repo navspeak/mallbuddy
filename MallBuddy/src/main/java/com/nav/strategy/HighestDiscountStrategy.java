@@ -5,7 +5,7 @@ import org.apache.log4j.Logger;
 import com.nav.domain.Category;
 import com.nav.domain.Item;
 import com.nav.driver.Driver;
-import com.nav.service.BillingService;
+import com.nav.services.BillingService;
 
 public class HighestDiscountStrategy implements IDiscountStrategy{
 

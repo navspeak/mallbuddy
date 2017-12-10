@@ -7,9 +7,9 @@ import com.nav.csv.util.InventoryUtil;
 import com.nav.domain.Brand;
 import com.nav.domain.Category;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.BrandService;
-import com.nav.service.CategoryService;
-import com.nav.service.InventoryService;
+import com.nav.services.BrandService;
+import com.nav.services.CategoryService;
+import com.nav.services.InventoryService;
 
 public class LoadDomains {
 	/**

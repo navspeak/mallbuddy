@@ -8,8 +8,8 @@ import org.apache.log4j.Logger;
 import com.nav.csv.util.BillSelectionUtil;
 import com.nav.csv.util.CSVUtil;
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.BillingService;
-import com.nav.service.InventoryService;
+import com.nav.services.BillingService;
+import com.nav.services.InventoryService;
 import com.nav.strategy.BillStyle;
 
 public class Driver {

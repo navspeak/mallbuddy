@@ -14,7 +14,7 @@ import org.junit.Rule;
 import org.junit.Test;
 
 import com.nav.exceptions.InvalidEntryInCSVFile;
-import com.nav.service.BrandService;
+import com.nav.services.BrandService;
 
 public class BrandTest {
 	
