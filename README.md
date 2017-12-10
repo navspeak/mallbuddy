@@ -1,8 +1,13 @@
-Table of Contents
-=================
-* [mallbuddy app] (#mallbuddy app)
+# Table of contents
+1. [pricebuddy App](#pricebuddyApp)
+  - [CSV File Formats](#CSVFileFormat)
+  - [Sample output](#SampleOutput)
+  - [Logging](#logging)
+2. [Project Setup](#proj)
+3. [Design and Architecture](#arch)
+4. [Assumptions](#assume)
 
-# mallbuddy app
+# mallbuddy app <a name="pricebuddyApp"></a>
 >This app is your buddy and helps you calculate the bill for customer item choices. 
 >It applies all the discount without you having to do the number crunching 
 >And it prints a handy bill!!
@@ -21,9 +26,10 @@ Usage: pricebuddy inventory=<inventory.csv> customerinput=<customerInput.csv>
        [brand=<brands.csv>] [category=<category.csv>]
 NOTE: brand and category are optional. If you do not provide these csv files 
        built-in defaults will be used for brands and categories
+
 ```
 
-# CSV File format
+## CSV File format <a name="CSVFileFormat"></a>
 
 **inventory.csv**
 ```
@@ -58,7 +64,7 @@ _The app has a built in Category with parent and children set up with default di
 ...
 ```
 
-## Sample run:
+## Sample Output: <a name="SampleOutput"></a>
 ```
 C:\PricebuddyApp>pricebuddy.bat inventory=inventory.csv customerinput=customerInput.csv
 
@@ -75,10 +81,10 @@ id  |Brand    |Category |Price    |Discount |Discounted Price
 For your choice 1,2,3,4 the total cost is Rs. 3860.0
 For your choice 1,5 the total cost is Rs. 2140.0
 ```
-## Logging:
+## Logging: <a name="logging"></a>
 The logging is controlled by a log4j.properties file in pricebuddyApp folder. By default console logging is disabled. All logs go to mallbuddy.log folder in the directory where the app is run from.
 
-# Project Set up
+# Project Set up <a name="proj"></a>
 
 - The layout is a standard Maven project
 - The **MallBuddy** is a maven project
@@ -86,7 +92,7 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
  - The main driver class is com.nav.driver.Driver
  - The project has tests that run on maven build. The test results can be found in **Mallbuddy/target/surefire-reports**
 
-# Design and Architecture:
+# Design and Architecture:<a name="arch"></a>
 
 ## Domain Objects
 `(Relevant package : com.nav.domain)`
@@ -146,7 +152,7 @@ Contains Strategy classes for Billing Style (represented as `BillingStyle` Enum)
 1. com.nav.csv.bootstrap.LoadDomain - creates the inventory
 2. com.nav.driver.Driver - has the main entry to the application
 
-# Assumptions:
+# Assumptions: <a name="assume"></a>
 1. This application runs as a standalone app
 2. Each category can be a sub category of only one parent category
 3. The input source is csv file in format as described. (However, the app can be extended in future to use any other source)
