@@ -78,7 +78,7 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
 
 - The layout is a standard Maven project
 - The **MallBuddy** is a maven project
- - When you do `maven build`, you can find the project built as a jar named **navsmall-_version_.jar**
+ - When you do `maven build`, you can find the project built as a jar named **navsmall-_version_.jar** (Navs' mall)
  - The main driver class is com.nav.driver.Driver
  - The project has tests that run on maven build. The test results can be found in **Mallbuddy/target/surefire-reports**
 
@@ -87,11 +87,11 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
 ## Domain Objects
 `(Relevant package : com.nav.domain)`
 
-1. Brand - has a `name` and has a `discount` associated with it (can be 0)
-2. Category - has a `name` and has a `discount` associated with it (can be 0)
-3. item - has a `name`. It may have a _parent **Category**_. It may also have one or more _child **Category**_ 
+1. Brand - has a `name` and a `discount` associated with it (can be 0)
+2. Category - has a `name` and a `discount` associated with it (can be 0)
+3. item - has an integer `id`. It may have a _parent_ `Category`. It may also have one or more or even no _child_ `Category(s)`  
 
-The Domain Objects implement DomainObject Interface.
+The Domain Objects implement `DomainObject` Interface.
 The Domain Objects have an identifier that can be either name and/or an integer Id
 
 ### Item Builder
@@ -101,7 +101,7 @@ This provides a fluent interface to build the Item object
 ## Service and Repository
 `(Relevant package : com.nav.repository and com.nav.services)`
 
-The repository supports all CRUD operations viz. following. These operations are encapsulated in **ICRUDService** interface
+The repository supports all CRUD operations viz. following. These operations are encapsulated in `ICRUDService` interface
 - Add a new Domain Object to the repository 
 - List All Domain Objects from the repository
 - update an existing Domain Object in the repository
