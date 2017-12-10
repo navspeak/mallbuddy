@@ -1,8 +1,5 @@
 # Table of contents
 1. [pricebuddy App](#pricebuddyApp)
-  - [CSV File Formats](#CSVFileFormat)
-  - [Sample output](#SampleOutput)
-  - [Logging](#logging)
 2. [Project Setup](#proj)
 3. [Design and Architecture](#arch)
 4. [Assumptions](#assume)
