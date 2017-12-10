@@ -4,7 +4,8 @@
 3. [Design and Architecture](#arch)
 4. [Assumptions](#assume)
 
-# mallbuddy app <a name="pricebuddyApp"></a>
+<a name="pricebuddyApp"></a>
+# pricebuddy app 
 >This app is your buddy and helps you calculate the bill for customer item choices. 
 >It applies all the discount without you having to do the number crunching 
 >And it prints a handy bill!!
@@ -60,8 +61,8 @@ _The app has a built in Category with parent and children set up with default di
 <Category Name e.g. WOMENSWEAR>,<Parent Name (leave empty if no parent) e.g. APPAREL>,<Children brands delimited by a colon. Empty for no childred (e.g. Dresses:Footwear):...>,<Discount>
 ...
 ```
-
-## Sample Output: <a name="SampleOutput"></a>
+<a name="SampleOutput"></a>
+## Sample Output:
 ```
 C:\PricebuddyApp>pricebuddy.bat inventory=inventory.csv customerinput=customerInput.csv
 
@@ -81,7 +82,8 @@ For your choice 1,5 the total cost is Rs. 2140.0
 ## Logging: <a name="logging"></a>
 The logging is controlled by a log4j.properties file in pricebuddyApp folder. By default console logging is disabled. All logs go to mallbuddy.log folder in the directory where the app is run from.
 
-# Project Set up <a name="proj"></a>
+<a name="proj"></a>
+# Project Set up 
 
 - The layout is a standard Maven project
 - The **MallBuddy** is a maven project
@@ -89,7 +91,8 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
  - The main driver class is com.nav.driver.Driver
  - The project has tests that run on maven build. The test results can be found in **Mallbuddy/target/surefire-reports**
 
-# Design and Architecture:<a name="arch"></a>
+<a name="arch"></a>
+# Design and Architecture:
 
 ## Domain Objects
 `(Relevant package : com.nav.domain)`
@@ -149,7 +152,8 @@ Contains Strategy classes for Billing Style (represented as `BillingStyle` Enum)
 1. com.nav.csv.bootstrap.LoadDomain - creates the inventory
 2. com.nav.driver.Driver - has the main entry to the application
 
-# Assumptions: <a name="assume"></a>
+<a name="assume"></a>
+# Assumptions: 
 1. This application runs as a standalone app
 2. Each category can be a sub category of only one parent category
 3. The input source is csv file in format as described. (However, the app can be extended in future to use any other source)
