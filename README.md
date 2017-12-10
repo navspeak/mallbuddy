@@ -1,4 +1,3 @@
-<a name="toc"></a>
 # Table of contents
 1. [pricebuddy App](#pricebuddyApp) 
 2. [Project Setup](#proj)
