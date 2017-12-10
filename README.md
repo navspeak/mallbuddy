@@ -128,7 +128,7 @@ Additionally, there are three more Service classes viz.:
 ```
 
 ## Utils
-`(Relevant package : com.nav.util)`
+`(Relevant package : com.nav.csv.util)`
 1. BrandUtil - has methods to read a csv file and help in populating brands
 2. CategoryUtil - has methods to read a csv file and help in populating categories
 3. InventoryUtil - has methods to read a csv file and help in populating brands
