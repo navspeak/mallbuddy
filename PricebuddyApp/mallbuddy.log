@@ -1,0 +1,307 @@
+2017-12-10 18:58:26 DEBUG Driver:53 - Inventory Input: C:\scratch\gitrepos\mallbuddy\PricebuddyApp\inventory.csv
+2017-12-10 18:58:26 DEBUG Driver:54 - Brand Input: C:\scratch\gitrepos\mallbuddy\PricebuddyApp\brands.csv
+2017-12-10 18:58:26 DEBUG Driver:55 - Category Input: C:\scratch\gitrepos\mallbuddy\PricebuddyApp\category.csv
+2017-12-10 18:58:26 DEBUG CategoryUtil:34 - Added category APPAREL
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added null
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added WOMENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added APPAREL
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added SHIRTS
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added TROUSERS
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added CASUALS
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added JEANS
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already WOMENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added APPAREL
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added DRESSES
+2017-12-10 18:58:26 DEBUG CategoryUtil:52 - child added FOOTWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already SHIRTS
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already TROUSERS
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already CASUALS
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already JEANS
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added MENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already DRESSES
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added WOMENSWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:36 - Category existed already FOOTWEAR
+2017-12-10 18:58:26 DEBUG CategoryUtil:44 - Parent is null or already added null
+2017-12-10 18:58:26 DEBUG CategoryUtil:54 - WOMENSWEAR
+2017-12-10 18:58:26 DEBUG Driver:59 - ============BRANDS LOADED=================
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=ARROW, discount=20.0]
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=UCB, discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=WRANGLER, discount=10.0]
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=VERO_MODA, discount=60.0]
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=ADIDAS, discount=5.0]
+2017-12-10 18:58:26 DEBUG Driver:60 - Brand [name=PROVOGUE, discount=20.0]
+2017-12-10 18:58:26 DEBUG Driver:61 - ============CATEGORIES LOADED=================
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=MENSWEAR, parent=APPAREL, children=[SHIRTS,TROUSERS,CASUALS,JEANS,], discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=TROUSERS, parent=MENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=WOMENSWEAR, parent=APPAREL, children=[DRESSES,FOOTWEAR,], discount=50.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=SHIRTS, parent=MENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=APPAREL, parent=NULL, children=[MENSWEAR,WOMENSWEAR,], discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=JEANS, parent=MENSWEAR, children=[], discount=20.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=FOOTWEAR, parent=NULL, children=[WOMENSWEAR,], discount=50.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=CASUALS, parent=MENSWEAR, children=[], discount=30.0]
+2017-12-10 18:58:26 DEBUG Driver:62 - Category [name=DRESSES, parent=WOMENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:26 DEBUG Driver:63 - ============ITEMS LOADED=================
+2017-12-10 18:58:26 DEBUG Driver:64 - Item [id=1, category=SHIRTS, brand=ARROW, price=800.0]
+2017-12-10 18:58:26 DEBUG Driver:64 - Item [id=2, category=DRESSES, brand=VERO_MODA, price=1400.0]
+2017-12-10 18:58:26 DEBUG Driver:64 - Item [id=3, category=FOOTWEAR, brand=PROVOGUE, price=1800.0]
+2017-12-10 18:58:26 DEBUG Driver:64 - Item [id=4, category=JEANS, brand=WRANGLER, price=2200.0]
+2017-12-10 18:58:26 DEBUG Driver:64 - Item [id=5, category=SHIRTS, brand=UCB, price=1500.0]
+2017-12-10 18:58:26 DEBUG Driver:65 - ==========================================
+
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 2
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand VERO_MODA = 60.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category DRESSES = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 60.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 3
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand PROVOGUE = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category FOOTWEAR = 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 4
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand WRANGLER = 10.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category JEANS = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 5
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand UCB = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 2
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand VERO_MODA = 60.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category DRESSES = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 60.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 3
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand PROVOGUE = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category FOOTWEAR = 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 50.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 4
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand WRANGLER = 10.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category JEANS = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 5
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand UCB = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 0.0
+2017-12-10 18:58:26 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:26 DEBUG Driver:76 - User Input
+2017-12-10 18:58:26 DEBUG Driver:77 - 1,2,3,4
+2017-12-10 18:58:26 DEBUG Driver:77 - 1,5
+2017-12-10 18:58:26 DEBUG Driver:86 - 
+==========================================================================
+id  |Brand    |Category |Price    |Discount |Discounted Price
+==========================================================================
+1   |ARROW    |SHIRTS   |800.0    |20.0     |640.0    
+2   |VERO_MODA|DRESSES  |1400.0   |60.0     |560.0    
+3   |PROVOGUE |FOOTWEAR |1800.0   |50.0     |900.0    
+4   |WRANGLER |JEANS    |2200.0   |20.0     |1760.0   
+5   |UCB      |SHIRTS   |1500.0   |0.0      |1500.0   
+
+
+For your choice 1,2,3,4 the total cost is Rs. 3860.0
+For your choice 1,5 the total cost is Rs. 2140.0
+
+2017-12-10 18:58:32 DEBUG Driver:53 - Inventory Input: C:\scratch\gitrepos\mallbuddy\PricebuddyApp\inventory.csv
+2017-12-10 18:58:32 DEBUG Driver:54 - Brand Input: null
+2017-12-10 18:58:32 DEBUG Driver:55 - Category Input: null
+2017-12-10 18:58:32 DEBUG Driver:59 - ============BRANDS LOADED=================
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=ARROW, discount=20.0]
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=UCB, discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=WRANGLER, discount=10.0]
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=VERO_MODA, discount=60.0]
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=ADIDAS, discount=5.0]
+2017-12-10 18:58:32 DEBUG Driver:60 - Brand [name=PROVOGUE, discount=20.0]
+2017-12-10 18:58:32 DEBUG Driver:61 - ============CATEGORIES LOADED=================
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=MENSWEAR, parent=APPAREL, children=[SHIRTS,TROUSERS,CASUALS,JEANS,], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=TROUSERS, parent=MENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=WOMENSWEAR, parent=APPAREL, children=[DRESSES,FOOTWEAR,], discount=50.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=SHIRTS, parent=MENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=APPAREL, parent=NULL, children=[MENSWEAR,WOMENSWEAR,], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=JEANS, parent=MENSWEAR, children=[], discount=20.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=FOOTWEAR, parent=WOMENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=CASUALS, parent=MENSWEAR, children=[], discount=30.0]
+2017-12-10 18:58:32 DEBUG Driver:62 - Category [name=DRESSES, parent=WOMENSWEAR, children=[], discount=0.0]
+2017-12-10 18:58:32 DEBUG Driver:63 - ============ITEMS LOADED=================
+2017-12-10 18:58:32 DEBUG Driver:64 - Item [id=1, category=SHIRTS, brand=ARROW, price=800.0]
+2017-12-10 18:58:32 DEBUG Driver:64 - Item [id=2, category=DRESSES, brand=VERO_MODA, price=1400.0]
+2017-12-10 18:58:32 DEBUG Driver:64 - Item [id=3, category=FOOTWEAR, brand=PROVOGUE, price=1800.0]
+2017-12-10 18:58:32 DEBUG Driver:64 - Item [id=4, category=JEANS, brand=WRANGLER, price=2200.0]
+2017-12-10 18:58:32 DEBUG Driver:64 - Item [id=5, category=SHIRTS, brand=UCB, price=1500.0]
+2017-12-10 18:58:32 DEBUG Driver:65 - ==========================================
+
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 2
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand VERO_MODA = 60.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category DRESSES = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 60.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 3
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand PROVOGUE = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category FOOTWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 4
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand WRANGLER = 10.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category JEANS = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 5
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand UCB = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 2
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand VERO_MODA = 60.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category DRESSES = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 60.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 3
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand PROVOGUE = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category FOOTWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category WOMENSWEAR = 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 50.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 4
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand WRANGLER = 10.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category JEANS = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 1
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand ARROW = 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 20.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:16 - Calculating Discount for item 5
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:18 - ---Discount for Brand UCB = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:22 - ---Discount for Category SHIRTS = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category MENSWEAR = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:24 - ------Discount for parent Category APPAREL = 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:26 - ------Max Category discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:29 - ------Max Total discount 0.0
+2017-12-10 18:58:32 DEBUG HighestDiscountStrategy:30 - +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2017-12-10 18:58:32 DEBUG Driver:76 - User Input
+2017-12-10 18:58:32 DEBUG Driver:77 - 1,2,3,4
+2017-12-10 18:58:32 DEBUG Driver:77 - 1,5
+2017-12-10 18:58:32 DEBUG Driver:86 - 
+==========================================================================
+id  |Brand    |Category |Price    |Discount |Discounted Price
+==========================================================================
+1   |ARROW    |SHIRTS   |800.0    |20.0     |640.0    
+2   |VERO_MODA|DRESSES  |1400.0   |60.0     |560.0    
+3   |PROVOGUE |FOOTWEAR |1800.0   |50.0     |900.0    
+4   |WRANGLER |JEANS    |2200.0   |20.0     |1760.0   
+5   |UCB      |SHIRTS   |1500.0   |0.0      |1500.0   
+
+
+For your choice 1,2,3,4 the total cost is Rs. 3860.0
+For your choice 1,5 the total cost is Rs. 2140.0
+
