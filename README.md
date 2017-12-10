@@ -1,3 +1,7 @@
+Table of Contents
+=================
+* [mallbuddy app] (#mallbuddy app)
+
 # mallbuddy app
 >This app is your buddy and helps you calculate the bill for customer item choices. 
 >It applies all the discount without you having to do the number crunching 
