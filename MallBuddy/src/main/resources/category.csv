@@ -1,0 +1,9 @@
+Apparel,,Menswear:Womenswear,0
+Menswear,Apparel,Shirts:Trousers:Casuals:Jeans,0
+Womenswear,Apparel,Dresses:Footwear,50
+Shirts,Menswear,,0
+Trousers,Menswear,,0
+Casuals,Menswear,,30
+Jeans,Menswear,,20
+Dresses,Womenswear,,0
+Footwear,,Womenswear,50
