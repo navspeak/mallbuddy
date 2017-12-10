@@ -149,7 +149,8 @@ Additionally, there are three more Service classes viz.:
 
 ## Strategy
 `(Relevant package : com.nav.strategy)`
-Contains Strategy classes for Billing Style (represented as `BillingStyle` Enum)
+
+Contains Strategy classes for printing bills using specfied Billing Style (represented as `BillingStyle` Enum). Also, contains stratefy for computing discount.
 
 ## BootStrap and Driver class
 1. com.nav.csv.bootstrap.LoadDomain - creates the inventory
