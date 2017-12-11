@@ -114,6 +114,8 @@ This provides a fluent interface to build the Item object
 ## Service and Repository
 `(Relevant package : com.nav.repository and com.nav.services)`
 
+![Alt text](/uml_images/services.png?raw=true "Services")
+
 The repository supports all CRUD operations viz. following. These operations are encapsulated in `ICRUDService` interface
 - Add a new Domain Object to the repository 
 - List All Domain Objects from the repository
