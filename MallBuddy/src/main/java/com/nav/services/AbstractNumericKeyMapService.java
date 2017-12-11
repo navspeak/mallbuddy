@@ -6,9 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import com.nav.domain.DomainObject;
+import com.nav.repository.ICRUDService;
 
 
-public abstract class AbstractNumericKeyMapService {
+public abstract class AbstractNumericKeyMapService implements ICRUDService<DomainObject>{
 	private Map<Integer, DomainObject> domainMap;
 
     private Integer getNextKey(){

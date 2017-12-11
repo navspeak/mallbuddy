@@ -23,6 +23,7 @@ com\nav\repository\ICRUDService.class
 com\nav\domain\ItemBuilder.class
 com\nav\repository\IItemService.class
 com\nav\csv\util\CSVUtil.class
+com\nav\repository\IStringKeyCRUDService.class
 com\nav\strategy\VanillaPrintBillStrategy.class
 com\nav\exceptions\InvalidEntryInCSVFile.class
 com\nav\repository\ICategoryService.class

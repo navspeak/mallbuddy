@@ -15,6 +15,7 @@ C:\scratch\MallBuddy\src\main\java\com\nav\csv\util\InventoryUtil.java
 C:\scratch\MallBuddy\src\main\java\com\nav\exceptions\InvalidEntryInCSVFile.java
 C:\scratch\MallBuddy\src\main\java\com\nav\services\BillingService.java
 C:\scratch\MallBuddy\src\main\java\com\nav\csv\bootstrap\LoadDomains.java
+C:\scratch\MallBuddy\src\main\java\com\nav\repository\IStringKeyCRUDService.java
 C:\scratch\MallBuddy\src\main\java\com\nav\services\BrandService.java
 C:\scratch\MallBuddy\src\main\java\com\nav\domain\Item.java
 C:\scratch\MallBuddy\src\main\java\com\nav\domain\ItemBuilder.java

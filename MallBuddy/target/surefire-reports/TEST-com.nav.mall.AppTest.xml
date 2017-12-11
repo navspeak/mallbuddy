@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="com.nav.mall.AppTest" time="0.043" errors="0" skipped="0">
+<testsuite tests="10" failures="0" name="com.nav.mall.AppTest" time="0.042" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Progress\OpenEdge\jdk\jre\bin"/>
@@ -27,7 +27,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\scratch\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7458406326653372752.tmp"/>
+    <property name="classworlds.conf" value="C:\scratch\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7216027625232264034.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Progress\OpenEdge\jdk\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_144/bin/server;C:/Program Files/Java/jre1.8.0_144/bin;C:/Program Files/Java/jre1.8.0_144/lib/amd64;C:\Program Files (x86)\RSA SecurID Token Common;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\PuTTY\;C:\Users\knavneet\AppData\Local\Microsoft\WindowsApps;;C:\E Drive\scratch\sts-bundle\sts-3.8.4.RELEASE;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,10 +61,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.nav.mall.BrandTest" name="testBrandListThatDoesntExist" time="0.002"/>
-  <testcase classname="com.nav.mall.BrandTest" name="testAllBrandsAreLoaded" time="0.035"/>
+  <testcase classname="com.nav.mall.BrandTest" name="testBrandListThatDoesntExist" time="0.001"/>
+  <testcase classname="com.nav.mall.BrandTest" name="testAllBrandsAreLoaded" time="0.034"/>
   <testcase classname="com.nav.mall.BrandTest" name="testDiscountsAreAppliedCorrectly" time="0"/>
-  <testcase classname="com.nav.mall.CategoryTest" name="testChildrenSetUp" time="0"/>
+  <testcase classname="com.nav.mall.CategoryTest" name="testChildrenSetUp" time="0.001"/>
   <testcase classname="com.nav.mall.CategoryTest" name="tesDiscountIsAppliedWell" time="0"/>
   <testcase classname="com.nav.mall.CategoryTest" name="testParentSetUp" time="0"/>
   <testcase classname="com.nav.mall.CategoryTest" name="testAllCategoriesAreLoaded" time="0"/>

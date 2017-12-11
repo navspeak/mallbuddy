@@ -3,9 +3,8 @@ package com.nav.services;
 import java.util.List;
 import com.nav.domain.DomainObject;
 import com.nav.domain.Item;
-import com.nav.repository.IItemService;
 
-public class ItemService extends AbstractNumericKeyMapService implements IItemService{
+public class ItemService extends AbstractNumericKeyMapService {
 	    @Override
 	    public List<DomainObject> listAll() {
 	        return super.listAll();
@@ -17,7 +16,7 @@ public class ItemService extends AbstractNumericKeyMapService implements IItemSe
 	    }
 
 	    @Override
-	    public Item saveOrUpdate(Item domainObject) {
+	    public Item saveOrUpdate(DomainObject domainObject) {
 	        return (Item) super.saveOrUpdate(domainObject);
 	    }
 

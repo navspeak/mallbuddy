@@ -1,14 +1,14 @@
 package com.nav.services;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import com.nav.domain.DomainObject;
+import com.nav.repository.IStringKeyCRUDService;
 
 
-public abstract class AbstractStringKeyMapService {
+public abstract class AbstractStringKeyMapService implements IStringKeyCRUDService<DomainObject> {
 	
 	private Map<String, DomainObject> domainMap;
 
