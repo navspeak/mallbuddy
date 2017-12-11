@@ -100,6 +100,8 @@ The logging is controlled by a log4j.properties file in pricebuddyApp folder. By
 ## Domain Objects
 `(Relevant package : com.nav.domain)`
 
+![Domain](DomainObject.PNG)
+
 1. Brand - has a `name` and a `discount` associated with it (can be 0)
 2. Category - has a `name` and a `discount` associated with it (can be 0)
 3. item - has an integer `id`. It may have a _parent_ `Category`. It may also have one or more or even no _child_ `Category(s)`  
