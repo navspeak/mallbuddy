@@ -114,7 +114,7 @@ This provides a fluent interface to build the Item object
 ## Service and Repository
 `(Relevant package : com.nav.repository and com.nav.services)`
 
-![services](/uml_images/Services.png?raw=true "Services")
+![services](Services.PNG)
 
 The repository supports all CRUD operations viz. following. These operations are encapsulated in `ICRUDService` interface
 - Add a new Domain Object to the repository 
